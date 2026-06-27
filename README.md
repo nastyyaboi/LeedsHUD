@@ -17,4 +17,6 @@
 <p align="center">
 <b>RRT94 & Mentraze for weapon icons and fonts</b>
 </p>
+<p align="center">
 <a href="https://github.com/DK22Pac/plugin-sdk">plugin-sdk</a>
+</p>
