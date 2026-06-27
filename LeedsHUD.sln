@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LeedsHUD", "LeedsHUD.vcxproj", "{F35BE3F0-DF28-3EFC-0842-2CA4F46D738A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|GTA-SA = Debug|GTA-SA
+		Release|GTA-SA = Release|GTA-SA
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F35BE3F0-DF28-3EFC-0842-2CA4F46D738A}.Debug|GTA-SA.ActiveCfg = Debug GTA-SA|Win32
+		{F35BE3F0-DF28-3EFC-0842-2CA4F46D738A}.Debug|GTA-SA.Build.0 = Debug GTA-SA|Win32
+		{F35BE3F0-DF28-3EFC-0842-2CA4F46D738A}.Release|GTA-SA.ActiveCfg = Release GTA-SA|Win32
+		{F35BE3F0-DF28-3EFC-0842-2CA4F46D738A}.Release|GTA-SA.Build.0 = Release GTA-SA|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
