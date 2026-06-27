@@ -12,7 +12,7 @@
 <strong>opiumdealer</strong>
 </p>
 <p align="center">
-<b>ICan'tReadYourMind for radar transparency</b>
+<b>ICan'tReadYourMind for blips and radar transparency</b>
 </p>
 <p align="center">
 <b>RRT94 & Mentraze for weapon icons and fonts</b>
