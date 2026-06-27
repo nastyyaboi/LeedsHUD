@@ -126,6 +126,21 @@ void leedsCrosshair() {
         return;
     }
 
+    if (Mode == MODE_1STPERSON) {
+        CVehicle* playerVehicle = FindPlayerVehicle(0, false);
+        if (playerVehicle) {
+            unsigned int model = playerVehicle->m_nModelIndex;
+            if (model == 476 || model == 520 || model == 425) {
+                float x = SCREEN_WIDTH * 0.5f;
+                float y = SCREEN_HEIGHT * 0.5f;
+                float rocketSize = SCREEN_COORD(80.0f);
+                CRect rect(x - rocketSize, y - rocketSize, x + rocketSize, y + rocketSize);
+                CrosshairSprites[CROSSHAIR_ROCKET].Draw(rect, CRGBA(255, 255, 255, 255));
+                return;
+            }
+        }
+    }
+
     int slot = player->m_nSelectedWepSlot;
     CWeaponInfo* info = CWeaponInfo::GetWeaponInfo(player->m_aWeapons[slot].m_eWeaponType, player->GetWeaponSkill());
     if (!info) return;
