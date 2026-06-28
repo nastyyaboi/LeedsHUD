@@ -20,3 +20,6 @@
 <p align="center">
 <a href="https://github.com/DK22Pac/plugin-sdk">plugin-sdk</a>
 </p>
+<p align="center">
+<a href="https://github.com/ThirteenAG/Ultimate-ASI-Loader/">ultimate asi loader is required</a>
+</p>
